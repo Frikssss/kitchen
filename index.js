@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send('Hello Tera Campus! ça va ?')
 })
 
+app.get('/answer', (req, res) => {
+  res.send('ça va tlès bien')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
