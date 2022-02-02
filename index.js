@@ -10,6 +10,10 @@ app.get('/answer', (req, res) => {
   res.send('ça va tlès bien')
 })
 
+app.get('/bad-answer', (req, res) => {
+  res.send('Non ça va po')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
