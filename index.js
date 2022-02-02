@@ -14,6 +14,10 @@ app.get('/bad-answer', (req, res) => {
   res.send('Non ça va po')
 })
 
+app.get('/route3', (req, res) => {
+  res.send('C\'est la 3ème route')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
